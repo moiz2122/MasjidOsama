@@ -384,7 +384,7 @@
 import { useEffect, useState } from "react";
 import { useGetPrayerTimeQuery } from "@/app/clientQuery";
 import { useRouter } from "next/navigation";
-import { Hamburger } from "lucide-react";
+import Swal from "sweetalert2";
 
 const prayerNames = {
   fajr: "الفجر",
