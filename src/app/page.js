@@ -1,6 +1,6 @@
 "use client";
 import "./globals.css";
-import PrayerDisplay from "./components/PrayerDisplay";
+import PrayerDisplay from "./Components/PrayerDisplay";
 import { useGetPrayerTimeQuery } from "./clientQuery";
 
 export default function Home() {
