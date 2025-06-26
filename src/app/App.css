@@ -1,29 +1,38 @@
 @import "tailwindcss";
-/* #004a48 */
-body {
-  /* background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364) */
-  background-color: #012322;
-  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+body{
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  height: 100vh;
+  background-image: url('../public/jumanh-jammaz-RWjM1BLnjxM-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.bg-new {
-  background-color: #111410;
-  background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
-}
 .text-glow-red {
-  /* color: #ff1a1a; */
-  color: #f76666;
-  text-shadow: 0 0 2px #ff1a1a, 0 0 4px #ff3333, 0 0 8px #ff6666;
+  color: #ff1a1a;
+  text-shadow:
+    0 0 2px #ff1a1a,
+    0 0 4px #ff3333,
+    0 0 8px #ff6666;
 }
 
 .text-glow-green {
   color: #00ff00;
-  text-shadow: 0 0 2px #00ff00, 0 0 4px #33ff33, 0 0 8px #66ff66;
+  text-shadow:
+    0 0 2px #00ff00,
+    0 0 4px #33ff33,
+    0 0 8px #66ff66;
 }
 
 .text-glow-white {
   color: white;
-  text-shadow: 0 0 2px white, 0 0 4px #ccc;
+  text-shadow:
+    0 0 2px white,
+    0 0 4px #ccc;
 }
 
 @keyframes slide-in-left {
@@ -55,6 +64,7 @@ body {
 .animate-slide-in-right {
   animation: slide-in-right 0.5s ease-out;
 }
+
 
 @layer utilities {
   /* .text-led-red {
